@@ -4,6 +4,7 @@
  *  Created on: Oct 28, 2024
  *      Author: Naj
  */
+#include "caesar.h"
 #include <iostream>
 #include <fstream>
 #include <string>

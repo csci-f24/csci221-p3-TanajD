@@ -6,7 +6,7 @@
  */
 #include <iostream>
 #include <unistd.h>
-#include "ceasar.h"
+#include "caesar.h"
 #include <fstream>
 #include <string>
 using namespace std;
@@ -69,10 +69,10 @@ int main(int argc, char** argv) {
 	caesarCipher(mode, inputFile, outputFile, shift);
 
 	if (eflag == 1) {
-		cout << "Encrypted ciphertext binary file created: " << outputFile;
+		cout << "Encrypted ciphertext binary file created: " << outputFile << "\n " << endl;
 	}
 	else if (dflag == 1) {
-		cout << "Decrypted plaintext file created: " << outputFile;
+		cout << "Decrypted plaintext file created: " << outputFile << "\n " << endl;
 	}
 
 
